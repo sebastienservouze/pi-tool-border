@@ -1,7 +1,7 @@
 {
   "name": "@nerisma/pi-tool-border",
   "version": "1.0.0",
-  "description": "Bordure latérale ▏ (couleur accent du thème) sur le rendu de tous les outils dans pi (built-in, extensions, futurs).",
+  "description": "Left-edge side border ▏ (theme accent color) on all tool output in pi.",
   "keywords": [
     "pi-package",
     "pi-extension",
@@ -11,8 +11,13 @@
   "author": "Sébastien SERVOUZE <sebastien.servouze@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nerisma/pi-tool-border.git"
+    "url": "git+https://github.com/sebastienservouze/pi-tool-border.git"
   },
+  "files": [
+    "extensions",
+    "preview.png",
+    "README.md"
+  ],
   "scripts": {
     "typecheck": "tsc --noEmit"
   },
