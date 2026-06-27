@@ -8,6 +8,8 @@ It works at the rendering layer, so it only borders tools whose content goes
 through a `Box` (the standard rendering path). A tool that renders its output
 some other way is left untouched.
 
+![pi-tool-border preview](./preview.png)
+
 ## Installation
 
 ```bash
